@@ -15,7 +15,7 @@ The panoramic video format allows for **seamless playback across the entire room
 - The video format is **universal**, meaning it can be played on various platforms, including VR systems and dome projection systems of different shapes.
 
 ### Room Shape Considerations
-Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal straight cube or dome shape, parts of the image may be **cut or distorted during projection**. To minimize image loss or distortion in such non-standard spaces, **careful alignment and testing** are strongly recommended.
+- Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal straight cube or dome shape, parts of the image may be **cut or distorted during projection**. To minimize image loss or distortion in such non-standard spaces, **careful alignment and testing** are strongly recommended.
 
 </details>
 
