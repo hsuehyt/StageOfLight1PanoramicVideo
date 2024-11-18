@@ -45,7 +45,7 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 ---
 
 ## Demo Video
-[Watch the demo video on YouTube](https://youtu.be/3P2WE4laE2U)
+[![Watch the Demo Video](https://img.youtube.com/vi/3P2WE4laE2U/maxresdefault.jpg)](https://youtu.be/3P2WE4laE2U)
 
 ---
 
