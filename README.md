@@ -73,7 +73,7 @@ Panoramic videos should use the **equirectangular format**, commonly used for VR
 - **Sources:**  
   - 360 cameras (for live-action footage)  
   - Rendering from 3D tools like **Maya**, **Blender**, or **Unity**  
-  - AI-generated content (e.g., still images animated via AI tools)
+  - AI-generated content (e.g., text-to-360, image-to-360, image-to-video)
 
 ### Room Shape Considerations
 - Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal straight cube or dome shape, parts of the image may be **cut or distorted during projection**.  
