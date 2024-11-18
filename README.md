@@ -2,7 +2,7 @@
 
 **Stage of Light** is a Unity project developed for NTNU Art Museum, designed to project dynamic visuals onto physical surfaces such as walls and floors in a room setup. This project combines real-time visual rendering and projection mapping with external systems like Resolume Arena to synchronize the virtual environment with the physical space.
 
-![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight/blob/main/ReadMe/Screenshot%202024-10-08%20153514.png)
+![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20101251.png)
 
 ## Features
 
