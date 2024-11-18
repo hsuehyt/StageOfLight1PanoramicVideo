@@ -1,12 +1,8 @@
----
-
 # Stage of Light - One Panoramic Video
 
 **Stage of Light - One Panoramic Video** is a Unity project designed for NTNU Art Museum. It enables the projection of a single panoramic video onto the walls and floors of the immersive projection space, "Stage of Light." This space utilizes a Windows-based dome projection system that integrates with **Resolume Arena** to display the Unity project's build folder seamlessly.
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20101251cropped.png)
-
----
 
 ## About the Panoramic Video
 
@@ -131,5 +127,3 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 - **NTNU Art Museum**
 
 </details>
-
----
