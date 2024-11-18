@@ -23,7 +23,7 @@
 3. **Load the Scene**:
     - Open the `PanoramicScene` from the `Assets/StageOfLight/` folder to explore the dynamic projection system.
 
-
+[![Watch the video](https://img.youtube.com/vi/3P2WE4laE2U/maxresdefault.jpg)](https://youtu.be/3P2WE4laE2U)
 
 ---
 
