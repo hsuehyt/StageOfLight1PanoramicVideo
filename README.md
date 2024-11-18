@@ -1,7 +1,3 @@
-To enable **fold/unfold** functionality for key points in your README, you can use Markdown's collapsible sections. While GitHub doesn't natively support collapsible Markdown sections, it does allow HTML elements in README files, so you can use `<details>` and `<summary>` tags.
-
-Here’s how the updated README would look with collapsible sections:
-
 ---
 
 # Stage of Light - One Panoramic Video
@@ -15,7 +11,7 @@ Here’s how the updated README would look with collapsible sections:
 ## About the Panoramic Video
 
 <details>
-<summary>Click to expand</summary>
+<summary>About the Panoramic Video</summary>
 
 The panoramic video format allows for **seamless playback across the entire room**, creating an immersive experience that spans walls and floors.
 
@@ -32,7 +28,7 @@ Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal
 ## Getting Started
 
 <details>
-<summary>Click to expand</summary>
+<summary>Getting Started</summary>
 
 ### Prerequisites
 Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021.3.6f1 is recommended.
@@ -60,7 +56,7 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 ## Adding Your Video
 
 <details>
-<summary>Click to expand</summary>
+<summary>Adding Your Video</summary>
 
 1. Import your video asset into Unity.
 2. In the **Hierarchy** panel, select `VideoPlayer`.
@@ -74,7 +70,7 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 ## Video Format and Recommendations
 
 <details>
-<summary>Click to expand</summary>
+<summary>Video Format and Recommendations</summary>
 
 ### Suggested Video Format
 - **Resolution**: 4K (4096x2048).  
@@ -105,7 +101,7 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 ## Building the Project
 
 <details>
-<summary>Click to expand</summary>
+<summary>Building the Project</summary>
 
 1. Open **File > Build Settings**.
 2. Ensure that only `StageOfLight/PanoramicVideo` is checked under **Scenes In Build**.
@@ -124,7 +120,7 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 ## Credits
 
 <details>
-<summary>Click to expand</summary>
+<summary>Credits</summary>
 
 - **Original Unity Project Design**: [李綠恩 Lu-En Li](https://github.com/LeeMegumi)
 - **Project Revision and Tutorial Demonstration**: [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)
@@ -137,5 +133,3 @@ Ensure you have **Unity Editor 2021.3.6f1** or later installed. The version 2021
 </details>
 
 ---
-
-Now, key sections of the README are collapsible, allowing readers to expand and focus only on the parts they’re interested in. Let me know if you'd like further adjustments!
