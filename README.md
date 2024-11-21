@@ -64,11 +64,16 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
 
 ### Format Specifications
 
+![Equirectangular Projection Example](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/01_cubeGrid_Equirectangular360_7680x4320.png)
+
 - **Resolution:** 4K (4096x2048) or higher. For immersive experiences, 8K is ideal, but Unity's Video Player currently supports up to **4K**.  
 - **Aspect Ratio:** 2:1 (width to height).  
 - **Format:** Equirectangular projection, commonly used for 360° panoramic content.
 
 ### Encoding with Adobe Media Encoder
+
+![Adobe Media Encoder Settings](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20134307highlighted.png)
+
 - **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`  
 - For better quality, use `Match Source - Adaptive High Bitrate`.
 
