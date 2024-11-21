@@ -2,7 +2,11 @@
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20101251cropped.png)
 
-**Stage of Light - One Panoramic Video** is a Unity project designed for NTNU Art Museum. It enables the projection of a single panoramic video onto the walls and floors of the immersive projection space, "Stage of Light." This space utilizes a Windows-based dome projection system that integrates with **Resolume Arena** to display the Unity project's build folder seamlessly.
+**Stage of Light - One Panoramic Video** is a Unity project developed for NTNU Art Museum. It enables the seamless projection of a single panoramic video onto the walls and floors of the immersive exhibition space, "Stage of Light." This project integrates with a Windows-based dome projection system and **Resolume Arena**, ensuring a streamlined visual experience by running the Unity project's build folder effortlessly.
+
+This project also incorporates multimedia tools such as **Keijiro.Klak.SPOUT** for Spout-based video output and **iam1337.extOSC** for Open Sound Control (OSC) functionality, providing a versatile framework for interactive and immersive installations.
+
+For a solution using six flat videos, please refer to [Stage of Light - Six Customized Videos](https://github.com/hsuehyt/StageOfLight6CustomizedVideos).
 
 ---
 
@@ -19,21 +23,21 @@
 
 ## Features
 
-- **Seamless Playback:** The panoramic video format allows playback across the entire immersive space.
-- **Platform Agnostic:** Compatible with VR systems, dome projection systems, and Unity environments.
-- **Customizable Content:** Easily replace demo content with your own panoramic videos.
+- **Simplified Projection Setup:** A single panoramic video eliminates the need for aligning multiple videos across surfaces.  
+- **High Immersion Potential:** Best suited for VR or dome-like environments where seamless panoramic playback is prioritized.  
+- **Universal Playback Compatibility:** Supports multiple platforms, including VR systems and dome projection environments.  
 
 ---
 
 ## Getting Started
 
 ### Prerequisites
-- Unity Editor **2021.3.6f1** or later is required (2021.3.6f1 is recommended).
+- Unity Editor **2021.3.6f1** or later (2021.3.6f1 is recommended).
 
 ### Installation
 1. Clone or download the project:
    ```bash
-   git clone https://github.com/hsuehyt/StageOfLight.git
+   git clone https://github.com/hsuehyt/StageOfLight1PanoramicVideo
    ```
 2. Extract the zip file (if downloaded) and add the project to Unity Hub.
 3. Open the project in Unity.
@@ -47,44 +51,38 @@
 
 ## Adding Your Video
 
-1. Import your video asset into Unity.
+1. Import your video into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayer`.
-3. In the **Inspector** panel, under `VideoPlayer > Video Clip`, replace the demo video by dragging your video into the slot.
+3. In the **Inspector** panel, under `VideoPlayer > Video Clip`, drag and drop your panoramic video to replace the demo content.
 4. Test the video by playing the scene.
 
 ---
 
 ## Video Format and Recommendations
 
-### Suggested Format
-- **Resolution:** 4K (4096x2048). For immersive/VR experiences, use **8K**, but note that Unity's Video Player currently supports up to **4K**.
-- **Aspect Ratio:** Maintain a **2:1 aspect ratio** (width to height) for panoramic videos.
+### Format Specifications
+
+- **Resolution:** 4K (4096x2048) or higher. For immersive experiences, 8K is ideal, but Unity's Video Player currently supports up to **4K**.  
+- **Aspect Ratio:** 2:1 (width to height).  
+- **Format:** Equirectangular projection, commonly used for 360° panoramic content.
 
 ### Encoding with Adobe Media Encoder
-- **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`
+- **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`  
 - For better quality, use `Match Source - Adaptive High Bitrate`.
 
-⚠ **Note:** High bitrate can cause playback issues for longer videos due to increased file sizes.
-
-![Adobe Encoder Settings](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20134307highlighted.png)
-
-### Projection Mapping
-Panoramic videos should use the **equirectangular format**, commonly used for VR 360 content:
-- **Sources:**  
-  - 360 cameras (for live-action footage)  
-  - Rendering from 3D tools like **Maya**, **Blender**, or **Unity**  
-  - AI-generated content (e.g., text-to-360, image-to-360, image-to-video)
+⚠ **Note:** High bitrate settings may cause playback issues for longer videos due to increased file sizes.
 
 ### Room Shape Considerations
-- Due to the **eccentric shape of "Stage of Light"**, which deviates from an ideal straight cube or dome shape, parts of the image may be **cut or distorted during projection**.  
-- To minimize image loss, ensure **careful alignment and testing**.
+
+- The irregular shape of the "Stage of Light" may lead to image cropping or distortion.  
+- Ensure thorough alignment and testing for optimal results.
 
 ---
 
 ## Building the Project
 
 1. Open **File > Build Settings** in Unity.
-2. Check **StageOfLight/PanoramicVideo** in **Scenes in Build**.
+2. Ensure **StageOfLight/PanoramicVideo** is checked in **Scenes in Build**.
 3. Click **Build**, and follow the prompts to create the build folder.
 
 ---
@@ -97,8 +95,11 @@ Panoramic videos should use the **equirectangular format**, commonly used for VR
 
 ## Credits
 
-- **Original Unity Project Design:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)
-- **Project Revision and Tutorial Demonstration:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)
+- **The Original Unity Project Developer:** [李綠恩 Lu-En Li](https://github.com/LeeMegumi)  
+- **The Project Maintainer and Developer:** [薛佑廷 Yuting Hsueh](https://github.com/hsuehyt)  
+- **Integrated Tools:**  
+  - **Keijiro.Klak.SPOUT** from [Keijiro's Scoped Registry](https://github.com/keijiro)  
+  - **iam1337.extOSC** from [OpenUPM](https://package.openupm.com)  
 
 ### Supervising Institutions
 - **Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office**, Ministry of Education  
