@@ -2,7 +2,7 @@
 
 ![Stage of Light Scene Preview](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-18%20101251cropped.png)
 
-**Stage of Light - One Panoramic Video** is a Unity project developed for NTNU Art Museum. It enables the seamless projection of a single panoramic video onto the walls and floors of the immersive exhibition space, "Stage of Light." This project integrates with a Windows-based dome projection system and **Resolume Arena**, ensuring a streamlined visual experience by running the Unity project's build folder effortlessly.
+**Stage of Light - One Panoramic Video** is a Unity project developed for 臺師大美術館 NTNU Art Museum. It enables the seamless projection of a single panoramic video onto the walls and floors of the immersive exhibition space, "光影走廊 Stage of Light." This project integrates with a Windows-based dome projection system and **Resolume Arena**, ensuring a streamlined visual experience by running the Unity project's build folder effortlessly.
 
 This project also incorporates multimedia tools such as **Keijiro.Klak.SPOUT** for Spout-based video output and **iam1337.extOSC** for Open Sound Control (OSC) functionality, providing a versatile framework for interactive and immersive installations.
 
@@ -50,6 +50,8 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
 ---
 
 ## Adding Your Video
+
+![Adding Your Video Preview](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/Screenshot%202024-11-21%20142845.png)
 
 1. Import your video into `Assets/StageOfLight/`.
 2. In the **Hierarchy** panel, select `VideoPlayer`.
@@ -102,6 +104,6 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
   - **iam1337.extOSC** from [OpenUPM](https://package.openupm.com)  
 
 ### Supervising Institutions
-- **Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office**, Ministry of Education  
-- **NTNU Advanced Display Technology Integration & Promotion in Art Venues**  
-- **NTNU Art Museum**
+- **教育部 前瞻顯示科技與跨領域人才培育計畫 總計畫辦公室 Advanced Display Technology & Interdisciplinary Talent Cultivation Project Office, Ministry of Education**  
+- **臺師大 前瞻顯示科技導入藝術場域建置與推廣計畫 NTNU Advanced Display Technology Integration & Promotion in Art Venues**
+- **臺師大 美術館 NTNU Art Museum**
