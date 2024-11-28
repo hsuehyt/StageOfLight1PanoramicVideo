@@ -77,11 +77,13 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
 - **Preset:** `H.264 > Match Source - Adaptive Low Bitrate`  
 - For better quality, use `Match Source - Adaptive High Bitrate`.
 
-⚠ **Note:** High bitrate settings may cause playback issues for longer videos due to increased file sizes.
-
 ### Room Shape Considerations
 
-- The irregular shape of the "Stage of Light" may lead to image cropping or distortion.  
+![Room Shape Diagram](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/image_011_0000%207680x4320.png)
+
+- The black area represents the ceiling, which is **not** a projection area.
+- The green area represents the walls and floors, which are the **projection areas**.
+- The irregular shape of the "Stage of Light" may lead to image cropping or distortion.
 - Ensure thorough alignment and testing for optimal results.
 
 ---
