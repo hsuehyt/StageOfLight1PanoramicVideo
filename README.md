@@ -81,10 +81,10 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
 
 ![Room Shape Diagram](https://github.com/hsuehyt/StageOfLight1PanoramicVideo/blob/main/README/image_011_0000%207680x4320.png)
 
-- The black area represents the ceiling, which is **not** a projection area.
-- The green area represents the walls and floors, which are the **projection areas**.
-- The irregular shape of the "Stage of Light" may lead to image cropping or distortion.
-- Ensure thorough alignment and testing for optimal results.
+- The **black area** represents the ceiling, which is not used as a projection surface.
+- The **green area** represents the walls and floors, designated as the projection surfaces.
+- Due to the irregular shape of the "Stage of Light," some image cropping or distortion may occur.
+- Conduct thorough testing and alignment to achieve the best visual results.
 
 ---
 
