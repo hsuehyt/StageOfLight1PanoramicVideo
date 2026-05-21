@@ -37,7 +37,7 @@ For a solution using six flat videos, please refer to [Stage of Light - Six Cust
 ### Installation
 1. Clone or download the project:
    ```bash
-   git clone https://github.com/hsuehyt/StageOfLight1PanoramicVideo
+   git clone https://github.com/hsuehyt/StageOfLight1PanoramicVideo.git
    ```
 2. Extract the zip file (if downloaded) and add the project to Unity Hub.
 3. Open the project in Unity.
